@@ -1,0 +1,45 @@
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url('/proxy/static/images/Login-Background-c.jpg') center;
+  background-size: cover;
+}
+.wrap-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  padding: 4rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  /*border: #4a484b 2px solid;*/
+  box-shadow: 1px 1px 5px 2px #d6d4d7;
+  opacity: 0.85;
+}
+
+.logo {
+  display: flex;
+  align-self: start;
+}
+.logo-color {
+  color: gray;
+}
+
+.login {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.button {
+  align-self: end;
+  font-size: 1.5em;
+}
+
+.span-separator {
+  width: 15rem;
+  flex: 1 1 auto;
+}
+

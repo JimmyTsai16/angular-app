@@ -1,0 +1,12 @@
+<div>
+  <button mat-button (click)="onGet()">Test</button>
+  <button mat-button (click)="onDraw()">Draw</button>
+</div>
+<span></span>
+<svg></svg>
+<div *ngFor="let ci of cpuInfo">
+  <p>{{ci.CreatedAt}}</p>
+  <p>{{ci.CpuPercentage}}</p>
+</div>
+
+

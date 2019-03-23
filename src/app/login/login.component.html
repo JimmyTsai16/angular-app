@@ -1,0 +1,26 @@
+<div class="container">
+
+  <div>
+    <div class="wrap-login" [formGroup]="user">
+      <div class="logo">
+        <a href="/"><mat-icon class="logo-color">home</mat-icon></a>
+      </div>
+      <div>
+        <p class="mat-title">Account Login</p>
+      </div>
+      <div>
+        <mat-form-field>
+          <input type="text" formControlName="username" placeholder="Username" matInput>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field>
+          <input type="password" formControlName="password" placeholder="Password" matInput>
+        </mat-form-field>
+      </div>
+      <div class="login">
+        <button mat-button class="button" (click)="onLogin()">Login</button>
+      </div>
+    </div>
+  </div>
+</div>

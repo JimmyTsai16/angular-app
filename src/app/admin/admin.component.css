@@ -1,0 +1,58 @@
+.sidenav-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+  padding-top: 3.5rem;
+}
+
+.sidenav {
+  padding-top: 3.5rem;
+  width: 120px;
+}
+.sidenav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/proxy/static/images/sidenav-c.jpg') center;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.sidenav-content {
+
+}
+
+.toolbar-func {
+  display: flex;
+  align-items: center;
+}
+
+.a-avatar {
+  display: flex;
+  height: 30px;
+}
+.avatar {
+  border-radius: 50%;
+}
+
+.app-header {
+  position: fixed;
+  height: 3.5rem;
+  top: 0;
+  z-index: 2;
+}
+
+.toolbox-separator {
+  flex: 1 1 auto;
+}
+
+.home {
+  color: #000000;
+  text-decoration:none;
+}
